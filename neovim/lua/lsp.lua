@@ -27,6 +27,7 @@ lspconfig.ccls.setup {
       directory = ".ccls-cache";
     };
   },
+  cmd = {"/home/mingquan.ji/.local/share/nvim/lsp_servers/ccls/bin/ccls", "--log-file=/tmp/ccls.log"},
   on_attach = on_attach,
 }
 
