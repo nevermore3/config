@@ -8,5 +8,10 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 - 刷新TMUX环境
 
 
+# install zsh & oh-my-zsh & thema
+
+- sudo apt-get install zsh
+- sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+- git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 # lsp c++ 使用需要添加 编译选项
