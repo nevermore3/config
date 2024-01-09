@@ -15,3 +15,6 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 - git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 # lsp c++ 使用需要添加 编译选项
+
+- cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
+- move file compile_commands.json to root directory
