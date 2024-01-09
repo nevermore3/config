@@ -90,7 +90,7 @@ local mappings = {
   ["q"] = { "<cmd>q!<CR>", "Quit" },
   ["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
   ["f"] = { "<cmd>Telescope find_files <cr>", "Find files"},
-  ["F"] = { "<cmd>Telescope live_grep <cr>", "Find Text" },
+  ["t"] = { "<cmd>Telescope live_grep <cr>", "Find Text" },
   ["b"] = { "<cmd>Telescope current_buffer_fuzzy_find <cr>", "Find Buffer" },
 
  -- Git
