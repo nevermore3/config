@@ -1,0 +1,56 @@
+*.swp
+*.so
+*.DS_Store
+
+# build
+make.sh
+build
+_build
+pkg-build
+/Makefile
+cmake-build*/
+
+# ccls
+.ccls
+.ccls-cache
+# clangd cache
+.clangd/
+compile_commands.json
+
+# tests
+!tests/Makefile
+reformat-gherkin
+
+# IDE
+.idea/
+.project
+.settings/
+.classpath
+.vscode/
+.cache/
+core.*
+workspace.*
+.metals/
+.cproject
+.dir-locals.el
+
+#py
+*.egg-info
+*.pot
+*.py[co]
+__pycache__
+venv/
+
+#lock
+*.lock
+
+#ctags
+.tags
+/.vs
+
+#coverage
+.coverage/coverage.json
+.coverage/html/*
+.coverage/coverage.info
+.coverage/lcov.info
+covg_rpt
