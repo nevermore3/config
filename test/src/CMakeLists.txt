@@ -3,4 +3,8 @@
 # aux_source_directory(dir VAR)
 aux_source_directory(. SRC_LIST)
 
+
 add_executable(main ${SRC_LIST})
+
+# link glog to main
+#target_link_libraries(main glog::glog)
